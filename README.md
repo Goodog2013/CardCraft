@@ -2,7 +2,7 @@
 
 ## RU 🇷🇺
 
-CardCraft - MVP-приложение для генерации контента карточек одежды для маркетплейсов (особенно kids/teen fashion).
+CardCraft — MVP-приложение для генерации контента карточек одежды для маркетплейсов (особенно kids/teen fashion).
 
 Один товар -> полный пакет:
 - заголовок
@@ -49,10 +49,10 @@ npm run dev
 
 ### Скрипты 📦
 
-- `npm run dev` - запуск dev-сервера
-- `npm run build` - production build
-- `npm run start` - запуск production-сборки
-- `npm run lint` - ESLint
+- `npm run dev` — запуск dev-сервера
+- `npm run build` — production build
+- `npm run start` — запуск production-сборки
+- `npm run lint` — ESLint
 
 ### Переменные окружения (готовность к API) 🤖
 
@@ -66,8 +66,8 @@ NEXT_PUBLIC_OPENAI_MODEL=local-model
 
 ### Локальное хранение 💾
 
-- Ключ: `cardcraft.projects.v1`
-- Язык интерфейса: `cardcraft.ui.language.v1`
+- Ключ проектов: `cardcraft.projects.v1`
+- Ключ языка UI: `cardcraft.ui.language.v1`
 
 ### Лицензия 📄
 
@@ -124,10 +124,10 @@ Open `http://192.168.1.66:3131`.
 
 ### Scripts 📦
 
-- `npm run dev` - start dev server
-- `npm run build` - production build
-- `npm run start` - start production build
-- `npm run lint` - run ESLint
+- `npm run dev` — start dev server
+- `npm run build` — production build
+- `npm run start` — start production build
+- `npm run lint` — run ESLint
 
 ### Environment Variables (API-ready) 🤖
 
@@ -147,4 +147,3 @@ Config file: `lib/config/ai.ts`
 ### License 📄
 
 MIT. See [`LICENSE`](./LICENSE).
-
