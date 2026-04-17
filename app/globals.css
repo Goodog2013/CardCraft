@@ -1,0 +1,59 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-manrope: "Manrope", "Avenir Next", "Segoe UI", "Noto Sans", sans-serif;
+  --font-space: "Sora", "Trebuchet MS", "Segoe UI", sans-serif;
+
+  --background: 216 36% 98%;
+  --foreground: 215 30% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 30% 15%;
+  --border: 214 25% 88%;
+  --muted: 210 24% 95%;
+  --muted-foreground: 214 15% 45%;
+  --primary: 191 53% 33%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 38 44% 86%;
+  --accent-foreground: 24 38% 24%;
+  --success: 150 57% 39%;
+  --danger: 352 77% 42%;
+}
+
+.dark {
+  --background: 220 27% 10%;
+  --foreground: 210 25% 93%;
+  --card: 220 23% 14%;
+  --card-foreground: 210 25% 93%;
+  --border: 220 15% 27%;
+  --muted: 220 18% 18%;
+  --muted-foreground: 215 15% 72%;
+  --primary: 190 62% 58%;
+  --primary-foreground: 214 42% 11%;
+  --accent: 38 30% 22%;
+  --accent-foreground: 40 62% 88%;
+  --success: 148 55% 48%;
+  --danger: 350 74% 58%;
+}
+
+* {
+  @apply border-border;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-background font-sans text-foreground;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.2);
+}

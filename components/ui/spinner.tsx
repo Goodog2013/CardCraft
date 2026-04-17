@@ -1,0 +1,7 @@
+﻿export function Spinner() {
+  return (
+    <span className="inline-flex h-4 w-4 items-center justify-center">
+      <span className="h-4 w-4 animate-spin rounded-full border-2 border-current border-r-transparent" />
+    </span>
+  );
+}

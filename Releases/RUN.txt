@@ -1,0 +1,18 @@
+﻿CardCraft Release Package
+
+Start as EXE:
+1) cd Releases
+2) .\CardCraft.exe
+
+Open in browser:
+http://192.168.1.66:3131
+
+Default host/port:
+HOSTNAME=0.0.0.0
+PORT=3131
+
+Custom port (PowerShell):
+$env:PORT=4040; .\CardCraft.exe
+
+Important:
+Keep CardCraft.exe together with .next, node_modules, public, package.json, server.js, sea-launcher.cjs.
